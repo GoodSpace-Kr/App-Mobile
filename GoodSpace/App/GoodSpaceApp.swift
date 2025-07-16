@@ -11,7 +11,7 @@ import SwiftUI
 struct GoodSpaceApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            AppRouter()
         }
     }
 }

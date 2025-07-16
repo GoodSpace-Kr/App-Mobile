@@ -9,10 +9,13 @@ import SwiftUI
 
 struct SplashView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.white.ignoresSafeArea()
+            Image("goodspace_transparent")
+                .resizable()
+                .frame(width: 300, height: 300)
+        }
+        
     }
 }
 
-#Preview {
-    SplashView()
-}
